@@ -113,7 +113,7 @@
                     }
                     if (key > last.Value)
                     {
-                        Console.Write("Item Not Found with exit code : ");
+                        Console.Write("Item Not Found , has exited code : ");
                         return -1;
                     }
                     else if (key == middleNode.Value)
@@ -146,7 +146,7 @@
             }
             else
             {
-                Console.WriteLine("empty!!!!!!!!!!!!!!!!");
+                Console.WriteLine("empty!!");
                 return -1;
             }
         }
